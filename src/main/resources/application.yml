@@ -1,11 +1,9 @@
 spring:
   application:
-    name: eko-dis
-
-server: 
-  port: 8888
-
-eureka: 
-  client: 
-    register-with-eureka: false
-    fetch-registry: false
+    name: eko-test-02
+  profiles:
+    active: Local
+server:
+  port: 8887
+  servlet:
+    context-path: /api/v2
