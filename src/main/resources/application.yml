@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: eko-test-01
+  profiles:
+    active: Local
+server:
+  port: 8889
+  servlet:
+    context-path: /api/v1
