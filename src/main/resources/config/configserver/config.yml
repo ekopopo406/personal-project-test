@@ -4,6 +4,6 @@ spring:
     discovery:
         enabled: true
         service-id: undefined
-      name: eko-test-01
+      name: eko-test-02
       profile: Local #配置环境，对应config server Url中的{profile}
       label: undefined #配置分支(不配置则默认：git则是master,svn则是trunk)

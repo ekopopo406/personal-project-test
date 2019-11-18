@@ -1,5 +1,5 @@
 eureka: 
   client: 
     service-url: 
-      defaultZone: http://undefined:undefined/eureka
+      defaultZone: http://eko-dis:8888/eureka
 
