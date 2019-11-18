@@ -2,4 +2,4 @@
 eureka:
   client:
     service-url:
-      defaultZone: "http://discovery3:8994/eureka"
+      defaultZone: "http://discovery33:8997/eureka"
