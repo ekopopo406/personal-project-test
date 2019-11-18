@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    config:
+    discovery:
+      enabled: true
+      service-id: unittest_config1
+    name: unittest_ms3
+    profile: undefined #配置环境，对应config server Url中的{profile}
+    label: unittest_ConfigBranch #配置分支(不配置则默认：git则是master,svn则是trunk)

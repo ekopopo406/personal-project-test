@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: unittest_ms3
+    profiles:
+    active: undefined
+server:
+  port: undefined
+  contextPath: /api/v1/a
