@@ -1,0 +1,7 @@
+---
+eureka:
+  client:
+    service-url:
+      defaultZone: "http://discovery3:8999/eureka"
+data:
+  test: 1233
