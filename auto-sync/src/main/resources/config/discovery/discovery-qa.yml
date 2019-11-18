@@ -1,5 +1,3 @@
 ---
-eureka:
-  client:
-    service-url:
-      defaultZone: "http://discovery3:8992/eureka"
+eureka: "{\"client\":{\"service-url\":{\"defaultZone\":\"http://discovery3:8994/eureka\"\
+  }}}"
