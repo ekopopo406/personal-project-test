@@ -2,6 +2,6 @@
 eureka:
   client:
     service-url:
-      defaultZone: "http://discovery3:8999/eureka"
+      defaultZone: "http://discovery3:8991/eureka"
 data:
   test: 1235
