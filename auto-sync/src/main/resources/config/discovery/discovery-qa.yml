@@ -1,4 +1,6 @@
 ---
-eureka: "123"
+eureka: "client"
 data:
   test: 1234
+client: "service-url"
+service-url: "http://discovery3:8992/eureka"
